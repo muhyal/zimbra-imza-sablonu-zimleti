@@ -41,7 +41,7 @@ Com_Zimbra_SignatureZimlet.prototype._createDialogView = function() {
 
 Com_Zimbra_SignatureZimlet.prototype.singleClicked = function() {
   var zimletInstance = appCtxt._zimletMgr.getZimletByName('com_zimbra_signature_zimlet').handlerObject;
-  var bottomImageUrl = "https://raw.githubusercontent.com/muhyal/zimbra-imza-sablonu/master/ornek-imza-gorseli/imzasablonubilgi.png";
+  var bottomImageUrl = "https://raw.githubusercontent.com/muhyal/zimbra-imza-sablonu-zimleti/master/ornek-imza-gorseli/imzasablonubilgi.png";
 
   var signatureContents;
 
@@ -107,7 +107,7 @@ Com_Zimbra_SignatureZimlet.prototype._error = function() {
 
 Com_Zimbra_SignatureZimlet.prototype._okBtnListener = function() {
   var zimletInstance = appCtxt._zimletMgr.getZimletByName('com_zimbra_signature_zimlet').handlerObject;
-  var bottomImageUrl = "https://raw.githubusercontent.com/muhyal/zimbra-imza-sablonu/master/ornek-imza-gorseli/imzasablonubilgi.png";
+  var bottomImageUrl = "https://raw.githubusercontent.com/muhyal/zimbra-imza-sablonu-zimleti/master/ornek-imza-gorseli/imzasablonubilgi.png";
 
   var signatureName = document.querySelector('[name=signature_name_prop]');
   var signatureOccupation = document.querySelector('[name=signature_occupation_prop]');
