@@ -1,0 +1,36 @@
+<template id="Main">
+  <table cellpadding="2" cellspacing="0" border="0" width="100%">
+    <tr>
+      <td>
+        <b>Tam adınız:</b>
+      </td>
+      <td>
+        <input type="text" name="signature_name_prop" />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <b>Departmanınız:</b>
+      </td>
+      <td>
+        <input type="text" name="signature_occupation_prop" />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <b>Diğer (Tel vb.)</b>
+      </td>
+      <td>
+        <textarea name="signature_other_prop"></textarea>
+      </td>
+    </tr>
+
+  </table>
+
+  <br>
+  <p>Önizle</p>
+  <div id="signature-preview">
+  </div>
+</template>

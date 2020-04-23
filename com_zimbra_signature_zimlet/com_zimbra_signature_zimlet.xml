@@ -1,0 +1,9 @@
+<zimlet name="com_zimbra_signature_zimlet" version="0.1.0" description="Kullanıcı tarafında hazır şablondan imza oluşturabilmeyi sağlar" target="main view-window">
+  <include>signatureZimlet.js</include>
+  <include>templates/signature.template.js</include>
+  <include>templates/signatureBase.template.js</include>
+  <handlerObject>Com_Zimbra_SignatureZimlet</handlerObject>
+  <zimletPanelItem label="İmza Şablonu">
+    <toolTipText>Hazır şablondan imza oluşturmak için tıklayın</toolTipText>
+  </zimletPanelItem>
+</zimlet>
